@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="in.ravikalla.XMLCompareM.AppTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="in.ravikalla.XMLCompareM.AppTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Softwares\JDK_1_8_91\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\ravi2\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8797159375331577663.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\ravi2\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf52350117358984066.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Softwares\JDK_1_8_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Softwares/JDK_1_8_91/bin/../jre/bin/server;C:/Softwares/JDK_1_8_91/bin/../jre/bin;C:/Softwares/JDK_1_8_91/bin/../jre/lib/amd64;C:\Softwares\JDK_1_8_91\bin;C:\Softwares\apache-tomcat-8.0.33\bin;C:\Softwares\apache-maven-3.3.9\bin;C:\Softwares\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Users\ravi2\AppData\Local\Programs\Eclipse Che\eclipse-che-4.2.0\tools\jre\bin;C:\Program Files\Git\cmd;;C:\Program Files\Docker Toolbox;C:\Softwares\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="in.ravikalla.XMLCompareM.AppTest" name="testApp" time="0.002"/>
+  <testcase classname="in.ravikalla.XMLCompareM.AppTest" name="testApp" time="0.006"/>
 </testsuite>

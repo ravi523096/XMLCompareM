@@ -81,20 +81,20 @@ public class CompareXMLAndXML {
 		String strExcludeElementsFileName = null;
 		String strIterateElementsFileName = null;
 		String strTrimElements = null;
-		if (args.length == 7) {
-			if (null != args[0] && args[0].equals(""))
+		if (args.length > 0) {
+			if (args.length > 0 && null != args[0] && args[0].equals(""))
 				strXMLFileName1 = args[0];
-			if (null != args[1] && args[1].equals(""))
+			if (args.length > 1 && null != args[1] && args[1].equals(""))
 				strXMLFileName2 = args[1];
-			if (null != args[2] && args[2].equals(""))
+			if (args.length > 2 && null != args[2] && args[2].equals(""))
 				strSuccessResultsFile = args[2];
-			if (null != args[3] && args[3].equals(""))
-				strSuccessResultsFile = args[3];
-			if (null != args[4] && args[4].equals(""))
+			if (args.length > 3 && null != args[3] && args[3].equals(""))
+				strFailureResultsFile = args[3];
+			if (args.length > 4 && null != args[4] && args[4].equals(""))
 				strExcludeElementsFileName = args[4];
-			if (null != args[5] && args[5].equals(""))
+			if (args.length > 5 && null != args[5] && args[5].equals(""))
 				strIterateElementsFileName = args[5];
-			if (null != args[6] && args[6].equals(""))
+			if (args.length > 6 && null != args[6] && args[6].equals(""))
 				strTrimElements = args[6];
 		}
 		else {
@@ -106,6 +106,7 @@ public class CompareXMLAndXML {
 		try {
 			testCompareXMLAndXML_WriteResults(strXMLFileName1, strXMLFileName2, strExcludeElementsFileName,
 					strIterateElementsFileName, strSuccessResultsFile, strFailureResultsFile, strTrimElements);
+			System.out.println("109 : " + strXMLFileName1 + " : " + strXMLFileName2 + " : " + strExcludeElementsFileName + " : " + strIterateElementsFileName + " : " + strSuccessResultsFile + " : " + strFailureResultsFile + " : " + strTrimElements);
 		} catch (IOException e) {
 			System.out.println("31 : CompareXMLAndXML.main(...) : IOException e : " + e);
 		}

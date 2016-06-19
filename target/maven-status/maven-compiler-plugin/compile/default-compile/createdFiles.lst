@@ -1,9 +1,7 @@
 in\ravikalla\XMLCompareM\util\CommonUtil.class
 in\ravikalla\XMLCompareM\dto\XMLToXMLComparisonResultsHolderDTO.class
 in\ravikalla\XMLCompareM\util\XMLDataConverter.class
-in\ravikalla\XMLCompareMav\App.class
 in\ravikalla\XMLCompareM\util\Util_XMLConvert.class
-in\ravikalla\XMLCompareM\App.class
 in\ravikalla\XMLCompareM\util\ConvertXMLToFullPathInCSV.class
 in\ravikalla\XMLCompareM\CompareXMLAndXML.class
 in\ravikalla\XMLCompareM\dto\SimpleNamespaceContext.class
