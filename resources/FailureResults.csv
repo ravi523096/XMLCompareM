@@ -1,9 +1,0 @@
-Expected XPath,Expected Data,Actual Path,Actual Data
-,,,
-/Schools/School/SchoolName,School7, , 
-/Schools/School/Students/Student,Student7_1, , 
-/Schools/School/Students/Student,Student7_2, , 
-,,,
- , ,/Schools/School/SchoolName,School6
- , ,/Schools/School/Students/Student,Student6_1
- , ,/Schools/School/Students/Student,Student6_2
